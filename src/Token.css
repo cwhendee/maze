@@ -1,0 +1,20 @@
+.token {
+	stroke: black;
+	stroke-width: 2px;
+}
+
+.token.player1 {
+	fill: magenta;
+}
+
+.token.player2 {
+	fill: cyan;
+}
+
+.token.player3 {
+	fill: yellow;
+}
+
+.token.player4 {
+	fill: black;
+}

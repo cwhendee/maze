@@ -1,0 +1,32 @@
+#PlayerList {
+  list-style: none;
+  padding-left: 0.25em;
+}
+
+#PlayerList li {
+  border-left: 6px solid;
+  width: 200px;
+  margin: 0.25em 0;
+  padding-left: 0.25em;
+  text-align: left;
+}
+
+#PlayerList li.player1 {
+  border-color: magenta;
+}
+
+#PlayerList li.player2 {
+  border-color: cyan;
+}
+
+#PlayerList li.player3 {
+  border-color: yellow;
+}
+
+#PlayerList li.player4 {
+  border-color: black;
+}
+
+#PlayerList li.active {
+  list-style: disc;
+}

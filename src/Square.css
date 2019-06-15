@@ -1,0 +1,18 @@
+.square {
+	stroke: black;
+	stroke-width: 2px;
+	fill: white;
+	height: 45px;
+	width: 45px;
+}
+
+.square.open:hover {
+	stroke: blue;
+	fill: powderblue;
+}
+
+text {
+	color: black;
+	fill: black;
+	stroke: black;
+}
