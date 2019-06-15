@@ -1,0 +1,37 @@
+#container {
+	margin: auto;
+	height: 100%;
+	width: 800;
+}
+
+#gameboard {
+	border: 1px solid black;
+	width: 465px;
+	height: 465px;
+	padding: 5px;
+}
+
+#gameboard .square {
+	border: 2px solid black;
+	border-radius: 6px;
+	height: 45px;
+	width: 45px;
+	margin: 2.5px;
+}
+
+
+#gameboard .open:hover {
+	border-color: blue;
+}
+
+#gameboard .token {
+	height: 30px;
+	width: 30px;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin: 2.5px;
+}
+
+.player1 {
+	background-color: magenta;
+}
