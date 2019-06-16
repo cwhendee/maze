@@ -1,18 +1,24 @@
 .square {
 	stroke: black;
+	fill: steelgray;
 	stroke-width: 2px;
-	fill: white;
+
 	height: 45px;
 	width: 45px;
 }
 
-.square.open:hover {
+.open:hover rect {
 	stroke: blue;
-	fill: powderblue;
+	fill: blue;
 }
 
-text {
-	color: black;
-	fill: black;
-	stroke: black;
+.open:hover path {
+	stroke: powderblue;
+	fill: powderblue;
+
+}
+
+.mazePassage {
+	stroke: white;
+	fill: white;
 }
